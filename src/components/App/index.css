@@ -1,0 +1,62 @@
+.noscroll{
+  height: 100%;
+  overflow: hidden;
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+
+body, html{
+  height: 100%;
+  max-width: 800px;
+  width: 100%;
+}
+
+.App{
+  padding-top: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.Modal {
+  background: #fff;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%
+}
+
+
+.Modal__Body {
+  background: #FFF;
+  padding: 2rem;
+  height: 100%;
+  overflow-y: scroll; 
+  -webkit-overflow-scrolling: touch;
+}
+
+.App__header{
+ text-align: center; 
+}
+
+.App__title{
+  font-size: 1.25rem;
+  font-weight: bold; 
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 1224px) {
+  html, body{
+    width: 500px;
+  }
+  
+  .App{
+    border-right: solid 1px #e1e1e1; 
+  }
+  
+  .Modal{
+    border-right: solid 1px #e1e1e1;    
+    width: 500px;    
+  }
+}

@@ -1,0 +1,42 @@
+.toggle{
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+  width: 50%;
+}
+
+.toggle__label{
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.toggle__button{
+  border: solid 1px #000;
+  border-radius: 1rem;
+  display: block;
+  font-size: .9rem;
+  padding: .5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.toggle__button:hover{
+  text-decoration: none;
+}
+
+/*.toggle__button.isEnabled, .toggle__button.isDisabled:hover{*/
+.toggle__button.isEnabled{
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: background-color 250ms, color 250ms;  
+  transition: background-color 250ms, color 250ms;
+}
+
+/*.toggle__button.isDisabled, .toggle__button.isEnabled:hover{*/
+.toggle__button.isDisabled{
+  background-color: #fff;
+  color: black;
+  -webkit-transition: background-color 250ms, color 250ms;
+  transition: background-color 250ms, color 250ms;
+}

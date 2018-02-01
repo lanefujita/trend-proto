@@ -1,0 +1,45 @@
+.Modal__Done{
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+  border-top: solid 1px #e1e1e1;
+  box-shadow: 0 -.25rem 1rem #ccc;
+  bottom: 0;
+  display: block;
+  left: 0;
+  padding: 2rem 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+.Modal__Items{
+  margin-bottom: 2rem;
+}
+
+.Modal__Done:hover{
+  cursor: pointer;
+}
+
+.Modal__Subhead{
+  margin-bottom: 1.5rem;
+}
+
+.Modal__Section{
+  border-bottom: solid 1px #e1e1e1;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.Modal__Section:last-child{
+  border-bottom: 0;
+  padding-bottom: 4rem;  
+}
+
+@media only screen and (min-width: 1224px) {
+.Modal__Done{
+    box-shadow: none;
+    border: solid 1px #e1e1e1;
+    border-width: 1px 1px 0 0;
+    width: 500px;
+  }
+}

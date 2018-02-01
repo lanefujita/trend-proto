@@ -1,0 +1,47 @@
+
+
+.Item{
+  border-bottom: solid 1px #e1e1e1;
+  line-height: 1.5rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  padding-top: 0;
+  width: 100%;
+}
+
+.Item:first-child{
+  border-top: solid 1px #e1e1e1;
+  padding-top: 2rem;
+}
+
+.Item__Brand{
+  display: inline-block;
+  font-weight: medium;
+  width:80%;
+}
+
+.Item__Partner{
+  display: inline-block;
+  margin-bottom: .25rem;
+}
+
+.Item__Product{
+  display: inline-block;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+}
+
+.Item__Price{
+  display: inline-block;
+  text-align: right;
+  width: 20%;
+}
+
+.Item__Image{
+  clear: both;
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+}
